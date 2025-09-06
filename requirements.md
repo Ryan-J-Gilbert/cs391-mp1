@@ -1,0 +1,23 @@
+# Requirements. 
+- [x] 6+ internal webpages
+- [x] Projects page
+- [ ] Calculator in JS on projects page
+- [ ] All pages with: header, nav, main, and footer
+- [ ] Header should have h1 title and p subtitle
+- [ ] Nav should have anchors to internal pages
+- [ ] Nav links within ul element
+- [ ] Main content: contain unique content based on resume, and take up atleast half screen
+- [ ] footer should include copywright statement: All Rights Reserved by Ryan Gilbert, link (<a>) named Credits and a copyrights logo (&#169;).
+- [ ] CSS on all pages, must be responsive, wrapped, squeezed with margins on both sides and centered
+- [ ] the nav: for 750+ px screens, vertical, not more than 30% width of parent
+- [ ] the nav: for less than 750 px, occupy 100% of width and appear horizontal
+- [ ] the header: 750+ px align content to left, else align center
+- [ ] the main: 750+ dont exceed 70% of width of parent, else occupy 100% of width
+- [ ] other notes: make good use of margins and padding, use calc() for font sizes, uniform background color, custom fonts, may use bootstrap and flexbox with media queries, content doesnt exceed limits of screen or parent, text readable at smallest size, margins and padding shrink when screen smalelr, max-width for images to become responsive
+- [ ] calculator requirements: 2 input boxes, 6 buttons +,-,*,/,**,Clear, 1 output texttual tag
+- [ ] ```<input type="text" id="first-number">   <button onclick="addition()"> + </button>``` The output should be displayed in textual tag using the .innerHTML() function.
+- [ ] for power button: raise value of first input to the second, using a for loop
+- [ ] for clear function, you can assign an empty "" to the value of the input boxes and the .innerHTML of the output tag
+- [ ] if the value of the result is negative, make the output field red (text or bckground)
+- [ ] make sure calculator is styled
+- [ ] deploy to bu server
