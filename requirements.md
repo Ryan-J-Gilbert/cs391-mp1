@@ -3,7 +3,7 @@
 - [x] Projects page
 - [ ] Calculator in JS on projects page
 - [ ] All pages with: header, nav, main, and footer
-- [ ] Header should have h1 title and p subtitle
+- [x] Header should have h1 title and p subtitle
 - [ ] Nav should have anchors to internal pages
 - [ ] Nav links within ul element
 - [ ] Main content: contain unique content based on resume, and take up atleast half screen

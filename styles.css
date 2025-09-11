@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    /* font-family: ; */
+    font-size: calc(2px + 1vw);
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    /* flexbox, push  */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+    background-color: #0d6efd;
+    color: white;
+    /* lets image be aligned correctly with header and subheader */
+    display: flex;
+    align-items: center;
+}
+
+.header-item {
+    display: inline-block;
+    padding: 0.5%;
+}
+
+h1 {
+    font-size: calc(2px + 4vw);
+}
+
+p {
+    font-size: calc(2px + 1.5vw);
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    /* align */
+}
+
+nav {
+    width: 20%;
+    height: 100%;
+    /* display: flex; */
+}
+
+.hm {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #aebdd5;
+}
+
+p {
+    padding: 2%;
+}
+
+li {
+    font-size: calc(2px + 2vw);
+    padding: 5%;
+}
+
+ul li a {
+    color: white;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul li a:hover {
+    color: #2b2b2b;
+}
+
+/* https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+@media (max-width: 750px) {
+    nav {
+        width: 100%;
+        height: auto;
+    }
+    ul {
+        display: flex;
+    
+    }
+    ul li {
+        float: left;
+    }
+    .hm {
+        display: block;
+    }
+}
