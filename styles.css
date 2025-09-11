@@ -53,16 +53,18 @@ footer {
 }
 
 h1 {
-    font-size: calc(2px + 4vw);
+    font-size: calc(2px + 3.5vw);
 }
 
 p {
-    font-size: calc(2px + 1.5vw);
+    font-size: calc(2px + 1.25vw);
+    padding: 2%;
+    width: 100%;
 }
 
 img {
     max-width: 10%;
-    height: auto;
+    height: auto;    
     /* align */
 }
 
@@ -70,6 +72,7 @@ nav {
     width: 20%;
     height: 100%;
     padding: 0.5%;
+    /* margin-right: 5%; */
     /* position: fixed; */
     /* display: flex; */
 }
@@ -83,9 +86,6 @@ ul {
     background-color: #2f4569;
 }
 
-p {
-    padding: 2%;
-}
 
 li {
     font-size: calc(2px + 2vw);
@@ -107,6 +107,19 @@ ul li a:hover {
     color: #a6a6a6;
 }
 
+main {
+    width: 70%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+button {
+    width: 100%;
+}
+
 /* https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
 @media screen and (max-width: 750px) {
     nav {
@@ -122,5 +135,11 @@ ul li a:hover {
     }
     .hm {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    main {
+        width: 100%;
     }
 }
