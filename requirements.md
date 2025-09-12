@@ -14,10 +14,10 @@
 - [x] the header: 750+ px align content to left, else align center
 - [x] the main: 1000+ dont exceed 70% of width of parent, else occupy 100% of width
 - [ ] other notes: make good use of margins and padding, use calc() for font sizes, uniform background color, custom fonts, may use bootstrap and flexbox with media queries, content doesnt exceed limits of screen or parent, text readable at smallest size, margins and padding shrink when screen smalelr, max-width for images to become responsive
-- [ ] calculator requirements: 2 input boxes, 6 buttons +,-,*,/,**,Clear, 1 output texttual tag
-- [ ] ```<input type="text" id="first-number">   <button onclick="addition()"> + </button>``` The output should be displayed in textual tag using the .innerHTML() function.
-- [ ] for power button: raise value of first input to the second, using a for loop
-- [ ] for clear function, you can assign an empty "" to the value of the input boxes and the .innerHTML of the output tag
+- [x] calculator requirements: 2 input boxes, 6 buttons +,-,*,/,**,Clear, 1 output texttual tag
+- [x] ```<input type="text" id="first-number">   <button onclick="addition()"> + </button>``` The output should be displayed in textual tag using the .innerHTML() function.
+- [x] for power button: raise value of first input to the second, using a for loop
+- [x] for clear function, you can assign an empty "" to the value of the input boxes and the .innerHTML of the output tag
 - [ ] if the value of the result is negative, make the output field red (text or bckground)
 - [ ] make sure calculator is styled
 - [ ] deploy to vercel
