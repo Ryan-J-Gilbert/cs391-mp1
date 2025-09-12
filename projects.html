@@ -39,23 +39,23 @@
                         <tr>
                             <td>
                                 <label for="i1">Input 1:</label>
-                                <input id="i1">
+                                <input type="text" id="i1">
                             </td>
                             <td>
                                 <label for="i2">Input 2:</label>
-                                <input id="i2">
+                                <input type="text" id="i2">
                             </td>
                             <td id="result">---</td>
                         </tr>
                         <tr>
                             <td><button onclick="plus()">+</button></td>
-                            <td><button>-</button></td>
-                            <td><button>*</button></td>
+                            <td><button onclick="minus()">-</button></td>
+                            <td><button onclick="times()">*</button></td>
                         </tr>
                         <tr>
-                            <td><button>/</button></td>
-                            <td><button>**</button></td>
-                            <td><button>Clear</button></td>
+                            <td><button onclick="divide()">/</button></td>
+                            <td><button onclick="power()">**</button></td>
+                            <td><button onclick="clear_box()">Clear</button></td>
                         </tr>
                     </table>
                 </main>
