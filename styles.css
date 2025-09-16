@@ -8,7 +8,6 @@
 }
 
 body {
-    /* flexbox, push  */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -96,7 +95,9 @@ h2 {
     font-size: calc(2px + 1.5vw);
 }
 
-
+#calculator {
+    height: 20vh;
+}
 
 h1.p {
     font-size: calc(2px + 1.25vw);
@@ -139,7 +140,7 @@ table, th, td {
 button {
     width: 100%;
     border-radius: 10px;
-    height: 15%;
+    height: calc(15px + 2vw);
 }
 
 /* https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
