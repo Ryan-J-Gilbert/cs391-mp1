@@ -1,7 +1,7 @@
 # Requirements. 
 - [x] 6+ internal webpages
 - [x] Projects page
-- [ ] Calculator in JS on projects page
+- [x] Calculator in JS on projects page
 - [ ] All pages with: header, nav, main, and footer
 - [x] Header should have h1 title and p subtitle
 - [x] Nav should have anchors to internal pages
@@ -18,6 +18,6 @@
 - [x] ```<input type="text" id="first-number">   <button onclick="addition()"> + </button>``` The output should be displayed in textual tag using the .innerHTML() function.
 - [x] for power button: raise value of first input to the second, using a for loop
 - [x] for clear function, you can assign an empty "" to the value of the input boxes and the .innerHTML of the output tag
-- [ ] if the value of the result is negative, make the output field red (text or bckground)
+- [x] if the value of the result is negative, make the output field red (text or bckground)
 - [ ] make sure calculator is styled
 - [ ] deploy to vercel

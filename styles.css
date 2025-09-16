@@ -69,16 +69,15 @@ img {
 }
 
 nav {
-    width: 20%;
+    width: 15%;
     height: 100%;
     padding: 0.5%;
-    /* margin-right: 5%; */
-    /* position: fixed; */
-    /* display: flex; */
 }
 
 .hm {
     display: flex;
+    width: 100vw;
+    flex-direction: row;
 }
 
 ul {
@@ -92,6 +91,26 @@ li {
     padding: 5%;
 }
 
+
+h2 {
+    font-size: calc(2px + 1.5vw);
+}
+
+
+
+h1.p {
+    font-size: calc(2px + 1.25vw);
+    width: 70%;
+    /* padding: 2%; */
+    /* width: 100%; */
+}
+
+#pageContent {
+    padding: 2%;
+    width: 100%;
+    padding-left:5%;
+    /* display: flex; */
+}
 
 
 ul li a {
@@ -116,11 +135,15 @@ table, th, td {
     border-collapse: collapse;
 }
 
+
 button {
     width: 100%;
+    border-radius: 10px;
+    height: 15%;
 }
 
 /* https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+/* later talked about in lecture... */
 @media screen and (max-width: 750px) {
     nav {
         width: 100%;
